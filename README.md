@@ -3,6 +3,9 @@
 
 Aquí vamos a poner los recursos de aprendizaje del batch y algunos programas de ejemplo.
 
+Unidades
+---
+ - Algoritmos y Estructuras de Datos
 
 Command Line
 ---
