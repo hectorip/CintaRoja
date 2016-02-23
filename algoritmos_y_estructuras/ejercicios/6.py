@@ -14,12 +14,12 @@ def encrypt(message, n):
     alphabet_length = len(alphabet)
     encrypted_message = ""
     for c in message.lower():
-        new_index = alphabet[c] + n
+        new_index = alphabet.index(c) + n
         if new_index >= alphabet_length:
             new_index = new_index - alphabet_length
 
-        encrypted_message += alphabet_length[new_index]
+        encrypted_message += alphabet[new_index]
 
     print(encrypted_message)
 
-encrypt("Hola")
+encrypt("Hola", 1)
