@@ -3,10 +3,12 @@
 # Fib(3) = Fib(2) + Fib(1) = 1 + 0 = 1
 # Fib(4) = Fib(3) + Fib(2) = 1 + 1 = 2
 
+
 def fib(n):
-    if n > 2:
-        return fib(n-1) + fib(n-2)
-    else:
-        return n - 1
+
+    if n < 2:
+        return n-1
+    
+    return fib(n-1) + fib(n-2)
 
 print(fib(10))
