@@ -10,11 +10,12 @@ def vowels_and_consonants(letters):
     vowels_count = 0
     consonant_count = 0
     for l in letters:
-        if l in vowels:
+        if l.lower() in vowels:
             vowels_count += 1
         else:
             consonant_count += 1
 
+    print("Input: " + str(letters))
     print("Número de vocales: " + str(vowels_count) +
           "\nNúmero de consonantes:" + str(consonant_count))
 
