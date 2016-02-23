@@ -1,6 +1,5 @@
 # CintaRoja
 
-
 Aquí vamos a poner los recursos de aprendizaje del batch y algunos programas de ejemplo.
 
 Unidades
