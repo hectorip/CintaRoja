@@ -1,0 +1,14 @@
+Estructuras de Datos:
+
+- Listas (Doble o Simplemente ligada)(Lists)
+
+- Colas(Queue) -> RabbitMQ, Celery- Pilas(Stack)
+
+- Árbol(Tree) - binarios o n-tree
+- Dict
+- Array
+- Hash Tables o Hash Maps
+
+
+Donald Knuth
+ Programa: Algortimos + Estructuras de datos
