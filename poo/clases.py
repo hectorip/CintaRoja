@@ -5,6 +5,7 @@
 # Herencia
 # Polimorfismo
 
+
 class Animal:
     # Atributos (cosas que tiene o que es)
     patas  = 4
@@ -24,14 +25,17 @@ class Animal:
     def contradecir(self):
         print("¡Qué no! ¡Qué no!")
 
+
 class Mamiferos():
     pass
+
 
 class Gato(Animal):
     sonido = "Miau"
 
     def say_my_name(self, nombre):
         print("Miau {}".format(nombre))
+
 
 class Elefante(Animal):
     pass
@@ -41,17 +45,17 @@ def hazlo_correr(animal):
     animal.correr()
 
 # Concreción o Instaciamineto
-# animal_desconocido = Animal()
+animal_desconocido = Animal()
 
-# print(animal_desconocido.sonido)
-# animal_desconocido.patas = 100
-# print(animal_desconocido.patas)
+print(animal_desconocido.sonido)
+animal_desconocido.patas = 100
+print(animal_desconocido.patas)
 
-# animal_desconocido.correr()
+animal_desconocido.correr()
 
-# animal_2 = Animal()
-# print(animal_2.patas)
-# animal_2.correr()
+animal_2 = Animal()
+print(animal_2.patas)
+animal_2.correr()
 
 
 pelusa = Gato()      # pelusa es Gato, Gato ""(es un)"" Animal
