@@ -19,4 +19,3 @@ class Caballo(Vehiculo, Animal):
 
 caballito = Caballo()
 print(caballito.max_vel)
-
