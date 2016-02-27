@@ -5,6 +5,9 @@ Aquí vamos a poner los recursos de aprendizaje del batch y algunos programas de
 Unidades
 ---
  - Algoritmos y Estructuras de Datos
+ - POO
+ - SOLID
+ - Patrones de diseño
 
 Command Line
 ---
