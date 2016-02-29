@@ -1,5 +1,5 @@
 import sys
-
+# exercises form codeeval.com
 file = open(sys.argv[1], 'r')
 for t in file:
     # 2, 5
