@@ -6,5 +6,4 @@ for t in file:
     if t.strip() != '':
         vals = t.split(",")  # ["2", " 5"]
         number_list = [int(x.strip()) for x in vals if (x != '' or x != ' ')]
-
     print(number_list)

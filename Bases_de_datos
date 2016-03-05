@@ -1,0 +1,84 @@
+#Datos: Unidad básica de información con sentido
+
+Base de datos: Conjunto de datos relacionados entre si que también tienen sentdo.
+===========================
+
+Archivos - Casos simples, tiempos de respuesta rápidos y datos no relacionados entre sí.
+
+Bases de Datos - Información compleja, esquema o estructura de información.
+
+
+Persistence
+
+
+Relacionales    -   No relacionales
+
+"SQL"          -   "No SQL"
+Structured
+Query Language
+
+
+-Open Source-
+MySQL      -> Compatibilidad, Soporte, # de
+            progrmadores.
+PostgreSQL -> Robusta, Mayor funcionalidad,
+            seguridad.  
+
+SQLite    -> Archivo, ligera.
+
+-Closed-
+Oracle     -> PL/SQL (cubos)
+SQLServer  -> Compatible con productos
+            microsoft
+Informix   -> -
+
+======== ESQUEMA =====
+ORM
+
+==========================================
+
+No SQL   == NO SCHEME
+
+Key -> Value
+Guardan diccionarios
+
+Riak       |
+Redis      |    -> Caché
+Memcached  |
+
+{
+ "key": "value"
+ "message": "hola"
+}
+{
+    "hola": "adios"
+}
+=========================
+
+Documentos
+
+MongoDB
+----------------------
+{k:v} | {y: x, o: l} |
+----------------------
+k -> indice
+
+CouchDB
+
+=========
+
+Graph Databases
+
+
+Neo4j ] ->
+Titan ] ->
+
+
+
+
+
+
+
+
+
+
