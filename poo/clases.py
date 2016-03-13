@@ -63,7 +63,6 @@ pelusa.contradecir()
 pelusa.say_my_name("Lalo")
 print(pelusa.sonido)
 
-
 dumbo = Elefante()
 
 
