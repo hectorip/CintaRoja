@@ -25,9 +25,9 @@ emilio = {
 }
 
 # How to access
-emilio["direccion"]["cp"]
+print(emilio["direccion"]["cp"])
 
-emilio["hobbies"][1]["hola"][3]
+print(emilio["hobbies"][1]["hola"][3])
 
 
 
