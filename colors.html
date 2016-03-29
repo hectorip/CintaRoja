@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ajax</title>
+
+</head>
+<body>
+    <h1> Ajax </h1>
+    <button id="boton">
+        Cambiar Color
+    </button>
+<script src="https://code.jquery.com/jquery-2.2.2.js" integrity="sha256-4/zUCqiq0kqxhZIyp4G0Gk+AOtCJsY1TA00k5ClsZYE="   crossorigin="anonymous"></script>
+<script>
+    $(function(){
+        
+        $("#boton").click(function(){
+
+            $.post('https://floating-badlands-2133.herokuapp.com/api/color', {}, function(matti){
+                    console.log(matti);
+                    $('body').css('background-color', matti.color);
+            });
+
+        });
+
+    });
+</script>
+</body>
+</html>
